@@ -1,0 +1,17 @@
+{
+  "name": "nodejs-license-generator",
+  "version": "1.0.0",
+  "description": "An example Node.js app which handles license generation and renewal.",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "author": "Cryptlex",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.5.1",
+    "koa-bodyparser": "^4.2.0",
+    "koa-router": "^7.4.0",
+    "node-fetch": "^2.1.2"
+  }
+}
