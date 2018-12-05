@@ -33,7 +33,7 @@ router.post('/license', async (ctx) => {
         email: email,
         firstName: first_name,
         lastName: last_name,
-        password: 'top_secret',
+        password: 'top_secret', // make sure you change logic for setting the password
         role: 'user'
     };
     const user = await CryptlexApi.createUser(userBody);
