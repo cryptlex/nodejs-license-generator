@@ -87,7 +87,7 @@ class HttpClient {
             headers: this.headers
         });
         if (response.status == 204) {
-            return await response.json();
+            return;
         } else {
             const error = await response.json();
             throw new HttpError(error.message, response.status);
